@@ -52,8 +52,8 @@ add_bg_from_local('./images/mainbackground.png')
 option1=0
 emotion_detector = FER(mtcnn=True)
 
-client_id = 'e183e169530c48ea804acf87a79aac3f'
-client_secret = '51845ff534db4456b4387fb9e88924a4'
+client_id = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+client_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager =client_credentials_manager)
